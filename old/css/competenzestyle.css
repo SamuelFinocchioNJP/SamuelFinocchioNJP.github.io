@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 2.6vh;
+}
+
+body{
+    background-image: url(../backgrounds/circuitred.png);
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header{
+    padding: 15px;
+    text-align: center;
+}
+
+    header h3{
+        font-family: 'Oswald', sans-serif;
+        font-size:1.7rem;
+    }
+
+    header h5{
+        font-family: 'Oswald', sans-serif;
+        font-size:1rem;
+    }
+
+
+nav{
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+    nav li{display: inline;}
+    
+    nav a{
+        color:#CC2A4A;
+        width: auto;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        display: inline-block;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    nav li:hover{
+        background-color: white;
+    }
+
+a{
+    text-decoration: none;
+    color: #1E90FF;
+}
+
+#wrapper{
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+    font-size:1.1rem;
+    width:60%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.95;
+    
+}
+
+#wrapper h3{
+    font-size: 1.4rem;
+}
+
+footer{
+    position: fixed;
+    right:0;
+    bottom:0;
+    opacity: 0.95;
+    background-color: black;
+    font-size: 15px;
+    text-align: right;
+    font-family: font-family: 'Oswald', sans-serif;
+    padding:10px;
+}
+
+
+article{
+   padding: 25px;
+   opacity: 0.9;
+}
+
+.white{
+    background-color:white;
+    color: black;
+}
+
+@media screen and (max-width: 750px)
+{
+    nav{
+        background-color: black;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    nav li{display: inline;}
+    
+    nav a{
+        width: 30%;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        display: inline-block;
+        padding: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    nav li:hover{
+        background-color: white;
+    }
+    
+    #wrapper{
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+    font-size:1.1rem;
+    width:90%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
+    #wrapper h3{
+        font-size: 1.5rem;
+    }
+    
+    footer{
+        display: none;
+    }
+}

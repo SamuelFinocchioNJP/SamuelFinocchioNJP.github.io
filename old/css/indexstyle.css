@@ -1,0 +1,208 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 2.6vh;
+}
+
+body{
+    background-image: url(../backgrounds/circuitblue.png);
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+header{
+    padding: 15px;
+    text-align: center;
+}
+
+    header h3{
+        font-family: 'Oswald', sans-serif;
+        font-size:1.7rem;
+    }
+
+    header h5{
+        font-family: 'Oswald', sans-serif;
+        font-size:1rem;
+    }
+
+
+nav{
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+    nav li{display: inline;}
+    
+    nav a{
+        color:#1E90FF;
+        width: auto;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        display: inline-block;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    nav li:hover{
+        background-color: white;
+    }
+
+section{
+    opacity: 0.95;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    background-color: black;
+    font-size: 1.0rem;
+    margin-top: 30px;
+    border-radius: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: #1E90FF;
+}
+
+#intro{
+    font-size: 1.2rem;
+    width:55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wrapper{
+    text-align: center;
+    width:100%;
+}
+
+#botwrapper
+{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#competenze{
+    width:16rem;
+    height: 8rem;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+#contatti{
+    font-size: 1.2rem;
+    width:16rem;
+    height: 8rem;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+#competenze img{
+    padding: 5px; height: 45px;
+    display: inline-block;
+}
+
+footer{
+    position: fixed;
+    right:0;
+    bottom:0;
+    opacity: 0.95;
+    background-color: black;
+    font-size: 15px;
+    text-align: right;
+    font-family: font-family: 'Oswald', sans-serif;
+    padding:10px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 800px){
+    
+    footer{
+        display: none;
+    }
+    
+    #intro{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 650px)
+{
+    
+    #wrapper{
+        width:100%;
+        text-align: center;
+    }
+
+    #botwrapper
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    #intro{
+        width: 90%;
+        margin: 10px;
+        margin-left: 15px;
+    }
+    
+    #competenze{
+        margin:10px;
+        margin-left: 15px;
+        padding-bottom: 30px;
+        width: 90%;
+        height: 130px;
+    }
+    
+    #competenze a{
+        font-size: 
+    }
+    
+    #contatti{
+        margin:10px;
+        margin-left: 15px;
+        padding-bottom: 35px;
+        width: 90%;
+        height: 100px;
+    }
+    
+    nav{
+        background-color: black;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    nav li{display: inline;}
+    
+    nav a{
+        color:#1E90FF;
+        width: 30%;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        display: inline-block;
+        padding: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    nav li:hover{
+        background-color: white;
+    }
+}

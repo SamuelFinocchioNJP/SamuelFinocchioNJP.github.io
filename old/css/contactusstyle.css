@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 2.6vh;
+}
+
+body{
+    background-image: url(../backgrounds/circuityellow.png);
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+header{
+    padding: 15px;
+    text-align: center;
+}
+
+    header h3{
+        font-family: 'Oswald', sans-serif;
+        font-size:1.7rem;
+    }
+
+    header h5{
+        font-family: 'Oswald', sans-serif;
+        font-size:1rem;
+    }
+
+
+nav{
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+    nav li{display: inline;}
+    
+    nav a{
+        color:#FFD700;
+        width: auto;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        display: inline-block;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    nav li:hover{
+        background-color: white;
+    }
+
+section{
+    display: block;
+    color: black;
+    padding: 10px;
+}
+
+footer{
+    position: fixed;
+    right:0;
+    bottom:0;
+    opacity: 0.95;
+    background-color: black;
+    font-size: 15px;
+    text-align: right;
+    font-family: font-family: 'Oswald', sans-serif;
+    padding:10px;
+}
+
+/* Form */
+
+.wrapper{
+    background: #eee;
+    border: 1px solid #999;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.1rem;
+    opacity: 0.99;
+}
+
+.wrapper textarea{
+    background: linear-gradient(to bottom, #e5e5e5 0%,#f2f2f2 100%);
+    border:none;
+    width:100%;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.wrapper textarea:focus{
+    outline: none;
+}
+.controls{
+    text-align: right;
+}
+
+#button{
+    background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    border: 1px solid #999;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: rgb(77,77,77);
+    border-width: 1px;
+    margin-top: -4%;
+    height: 100%;
+    width: 100px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 750px)
+{
+    nav{
+        background-color: black;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    nav li{display: inline;}
+    
+    nav a{
+        width: 30%;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        display: inline-block;
+        padding: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    nav li:hover{
+        background-color: white;
+    }
+    
+    .wrapper{
+        margin: 20px;
+        padding: 0px;
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer{
+        display: none;
+    }
+}
